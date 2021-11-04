@@ -1,0 +1,41 @@
+.menusito {
+    font-family: Montserrat;
+    
+}
+
+.menu {
+
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    background-size: width: 1440px;
+    height: 67px;>
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Montserrat;
+    position: relative; top: -35px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+    
+
+
+
+
+
