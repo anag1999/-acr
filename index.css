@@ -12,6 +12,8 @@
     margin: auto;
     background-size: width: 1440px;
     /* height: 67px; */
+    display: inline-block;
+    margin: auto;
 }
 
 .menu li a {
@@ -42,19 +44,24 @@
     
 input,textarea {
     display: block;
-width: 70%; 
- padding: 10px; 
- /* margin-left: 80px;
-  margin-right: 80px; */
+width: 80%; 
+ padding: 14px; 
+ margin-left: 80px;
+  margin-right: 80px; 
    margin-bottom: 55px;
     margin-top: 5px;
+    margin: auto;
+    resize: none;
 }
+
+
 
 label {
     display: block;
-    margin-left: 80px;
+    margin-left: 6%;
      padding: 10px;
       font-family: Montserrat;
+      font-size: 20px;
 }
 
 .botonenviar {
@@ -64,20 +71,32 @@ label {
     color: white;
 border-radius: 25px;
     width: 25%;
-    margin-top: -20px;
+    margin-top: 68px;
     align-items: center;
-    margin-left: 198px;
+    margin-left: 260px;
     margin right: 198px;
+    
+    
 
     
 }
 
 form {
-    display: block;
+    
     background-color: lightsteelblue;
-width: 70%;
-height: 556px;
-margin: auto;
+    margin: auto;
+    width: 35%;
+    height: 562px;
+    left: 443px;
+    top: 633px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px ;
+    border-radius: 5%;
+    position: absolute;
+    flex-direction: column;
+    resize: none;
+
 
 }
 
@@ -106,3 +125,15 @@ margin: auto;
       height: 493px;
 
 }
+
+.titulo-contacto {
+font-family: Montserrrat;
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 88px;
+text-align: center;
+
+color: #000000;
+}
+
