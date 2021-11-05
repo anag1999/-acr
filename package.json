@@ -1,0 +1,22 @@
+{
+  "name": "acr",
+  "version": "1.0.0",
+  "description": "Acr's first project (this can be changed later on)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anag1999/acr.git"
+  },
+  "keywords": [
+    "SPA"
+  ],
+  "author": "Irving Juárez <irvingjuarez274@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anag1999/acr/issues"
+  },
+  "homepage": "https://github.com/anag1999/acr#readme"
+}
