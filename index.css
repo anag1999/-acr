@@ -8,7 +8,7 @@
     list-style: none;
     padding: 0;
     background-color: black;
-    width: 90%;
+    width: 100%;
     margin: auto;
     background-size: width: 1440px;
     height: 67px;>
@@ -23,7 +23,8 @@
     font-weight: bold;
     font-size: 32px;
     font-family: Montserrat;
-    position: relative; top: -35px;
+    position: relative; top: -20px;
+    align-items: center;
 }
 
 .menu li {
@@ -33,9 +34,62 @@
 
 .menu li a:hover{
     background: #ef8354;
+}
+
+.wpp a:hover{
+    background:#ef8354;
+}
+    
+input,textarea {
+width: 70%;  padding: 10px; margin-left: 80px; margin-right: 80px; margin-bottom: 55px; margin-top: 5px;
+}
+
+label {
+    margin-left: 80px; padding: 10px; font-family: Montserrat; margin-bottom: ;position: relative;
+    top: 25px;
+}
+
+.botonenviar {
+    font-family: Montserrat;
+    font-size: 20px;
+    background-color: #39569A;
+    color: white;
+border-radius: 25px;
+    width: 25%;
+    margin-top: -20px;
+    align-items: center;
+    margin-left: 198px;
+    margin right: 198px;
+
+    
+}
+
+form {
+    position: absolute;
+    background-color: lightsteelblue;
+width: 579px;
+height: 556px;
+left: 443px;
+top: 633px;
+back
+}
+
+.cotizacion {
+    position: absolute; 
+    width: 779px; height: 123px; left: 262px; top: 1294px;
+    background-color: #1E2848;
+    color: white;
+    font-family: Montserrat;
+    font-size: 40px;
+    border-radius: 55px;
+
+
     
 
 
+}
 
-
+.cotizacion a:hover{
+    background: lightsteelblue;
+}
 
