@@ -20,6 +20,28 @@ const Home = () => {
                     ¡AQUÍ TE LO COTIZAMOS!
                 </button>
             </article>
+
+            <section class="main-products">
+                <span></span>
+                <h2>Productos</h2>
+                <img src="./assets/imgs/productos.png"/>
+
+                <ol>
+                    <li>Salud</li>
+                    <li>Seguridad</li>
+                    <li>Empaques</li>
+                    <li>Adhesivos</li>
+                    <li>Papeleria</li>
+                    <li>Limpieza</li>
+                    <li>Automotriz</li>
+                </ol>
+            </section>
+
+            <section class="main-brands">
+                <span></span>
+                <h2>Marcas</h2>
+                <img src="./assets/imgs/brands.png"/>
+            </section>
         </section>
     `;
 
