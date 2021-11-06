@@ -161,7 +161,7 @@ main{
 
     color: black;
 }
-.main-introduction > section > span, .main-about > span, .main-products > span, .products-contact > span{
+.main-introduction > section > span, .main-about > span, .main-products > span, .products-contact > span, .main-contact > span{
     width: 80px;
     height: 4px;
     margin-bottom: 10px;
@@ -179,14 +179,14 @@ main{
     max-width: 600px;
 }
 
-.main-about, .main-products{
+.main-about, .main-products, .main-contact{
     margin: 0 auto;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main-about > h2, .main-products > h2{
+.main-about > h2, .main-products > h2, .main-contact > h2{
     margin-bottom: 20px;
     font-size: 2.7rem;
     font-weight: 600;
@@ -280,6 +280,50 @@ main{
 }
 .security > p, .stationery > p, .cleaning > p{
     align-self: flex-end;
+}
+
+.main-contact > p{
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-weight: 600;
+}
+.main-contact > form{
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 15px;
+    background-color: rgba(57, 86, 154, 0.29);
+    padding: 9px;
+}
+.main-contact > form label{
+    margin-bottom: 5px;
+}
+.main-contact > form input{
+    padding: 4px;
+}
+.main-contact > form textarea{
+    height: 200px;
+}
+.main-contact > form button{
+    padding: 9px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--logoColor);
+    color: white;
+}
+.main-contact > form > div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.main-contant_media{
+    width: 245px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-contant_media > img{
+    width: 40px;
 }
 
 
