@@ -29,10 +29,10 @@ module.exports = {
             filename: './index.html'
         }),
         new CopyWebpackPlugin({
-            patterns: [{ 
-                from: './src/styles/style.css',
-                to: '' 
-            }],
+            patterns: [
+                { from: './src/styles/style.css', to: '' },
+                { from: path.resolve(__dirname, 'src', 'assets/imgs'), to: 'assets/imgs'}
+            ],
         })
     ]
 }
