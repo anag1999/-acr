@@ -161,7 +161,7 @@ main{
 
     color: black;
 }
-.main-introduction > section > span{
+.main-introduction > section > span, .main-about > span{
     width: 80px;
     height: 4px;
     margin-bottom: 10px;
@@ -178,6 +178,46 @@ main{
 .main-brands > img{
     max-width: 600px;
 }
+
+.main-about{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-about > h2{
+    margin-bottom: 20px;
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+.main-about > article > p{
+    padding: 12px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.main-about > article{
+    display: flex;
+    flex-direction: column;
+}
+.main-about > article > div{
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 4px 18px;
+    background-color: var(--primaryColor);
+    color: white;
+}
+.about_values > div, .about_vision > div{
+    align-self: flex-end;
+}
+.main-about > ul{
+    text-align: center;
+    list-style: none;
+}
+.main-about > ul > li{
+    color: var(--primaryColor);
+    font-weight: 600;
+}
+
 
 footer{
     width: 100%;
