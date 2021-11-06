@@ -161,7 +161,7 @@ main{
 
     color: black;
 }
-.main-introduction > section > span, .main-about > span{
+.main-introduction > section > span, .main-about > span, .main-products > span, .products-contact > span{
     width: 80px;
     height: 4px;
     margin-bottom: 10px;
@@ -179,14 +179,14 @@ main{
     max-width: 600px;
 }
 
-.main-about{
+.main-about, .main-products{
     margin: 0 auto;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main-about > h2{
+.main-about > h2, .main-products > h2{
     margin-bottom: 20px;
     font-size: 2.7rem;
     font-weight: 600;
@@ -199,10 +199,10 @@ main{
 .main-about > article{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     max-width: 750px;
 }
-.main-about > article > div{
+.main-about > article > div, .main-products > article > div{
     width: fit-content;
     font-size: 1.5rem;
     padding: 4px 18px;
@@ -222,6 +222,52 @@ main{
 .main-about > ul > li{
     color: var(--primaryColor);
     font-weight: 600;
+}
+
+.main-products{
+    font-size: 1.4rem;
+}
+.main-products > p, .main-products > article > p{
+    padding: 9px;
+}
+.main-products > article{
+    margin: 15px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-products > article > p{
+    text-align: end;
+}
+.main-products > .health > p, .main-products > .adherents > p{
+    text-align: start;
+}
+.health > div, .adherents > div{
+    align-self: flex-start;
+}
+.security > div, .stationery > div, .cleaning > div{
+    align-self: flex-end;
+}
+.products-contact > h2{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.products-contact > p{
+    margin: 0 auto;
+}
+.products-contact > button{
+    margin: 15px 0;
+    padding: 7px 25px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+
+    font-weight: 600;
+    color: var(--logoColor);
+}
+.products-contact > button > img{
+    width: 15px;
 }
 
 
