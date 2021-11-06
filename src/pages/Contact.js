@@ -40,10 +40,22 @@ const Contact = () => {
             </form>
 
             <article class="main-contant_media">
-                <img src="./assets/imgs/facebook.png" />
-                <img src="./assets/imgs/email.png" />
-                <img src="./assets/imgs/whatsapp.png" />
-                <img src="./assets/imgs/phone-call.png" />
+                <div>
+                    <img src="./assets/imgs/facebook.png" />
+                    <a class="hidden" href="https://www.facebook.com/acrcomer">https://www.facebook.com/acrcomer</a>
+                </div>
+                <div>
+                    <img src="./assets/imgs/email.png" />
+                    <a class="hidden" href="mailto:contacto@comercializadoraar.com">contacto@comercializadoraar.com</a>
+                </div>
+                <div>
+                    <img src="./assets/imgs/whatsapp.png" />
+                    <p class="hidden">55 8155 4041</p>
+                </div>
+                <div>
+                    <img src="./assets/imgs/phone-call.png" />
+                    <p class="hidden">55 5463 0426</p>
+                </div>
             </article>
         </section>
     `;
