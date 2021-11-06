@@ -31,7 +31,8 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [
                 { from: './src/styles/style.css', to: '' },
-                { from: path.resolve(__dirname, 'src', 'assets/imgs'), to: 'assets/imgs'}
+                { from: path.resolve(__dirname, 'src', 'assets/imgs'), to: 'assets/imgs'},
+                { from: path.resolve(__dirname, 'src', 'assets/icons'), to: 'assets/icons'}
             ],
         })
     ]

@@ -28,8 +28,23 @@ body{
 }
 header{
     width: 100%;
-    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--primaryColor);
 }
+.logo-container{
+    height: inherit;
+}
+.logo-container > img{
+    height: inherit;
+}
+.header-navbar{
+    display: none;
+}
+
 footer{
     width: 100%;
     height: 30px;
