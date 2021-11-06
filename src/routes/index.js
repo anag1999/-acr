@@ -1,6 +1,7 @@
 // Utils
 import getHash from "../utils/getHash";
 import solveRoutes from "../utils/solveRoutes";
+import clickHandler from "../utils/clickHandler";
 
 // Templates
 import Header from "../templates/Header";
@@ -33,6 +34,8 @@ const router = async () => {
     let render = routes[route] ? routes[route] : Error404;
 
     content.innerHTML = await render();
+
+    clickHandler()
 }
 
 export default router;
