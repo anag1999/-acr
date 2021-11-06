@@ -4,11 +4,14 @@ const Header = () => {
             <img src="./assets/imgs/acr2.JPG" class="logo" />
         </div>
 
-        <button class="hamburguerBtn-container">
+        <button class="icon-container">
             <img src="./assets/icons/hambBtn.svg" />
         </button>
 
         <nav class="header-navbar">
+            <button class="icon-container">
+                <img src="./assets/icons/x.svg" />
+            </button>
             <ul>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="#/about">¿Quiénes somos?</a></li>
