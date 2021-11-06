@@ -104,7 +104,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url("./assets/imgs/"); */
+    background-image: url("./assets/imgs/cover.png");
 }
 .introduction-cover_text{
     width: 65%;
@@ -367,7 +367,7 @@ footer{
         height: 70vh;
     }
     .introduction-cover_text{
-        width: 51%;
+        width: 63%;
         padding: 45px;
         font-size: 3.5rem;
     }
