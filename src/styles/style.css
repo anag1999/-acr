@@ -122,8 +122,14 @@ main{
 .introduction-description{
     height: auto;
     padding: 15px 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     background-color: var(--middleColor);
+}
+.introduction-description > p{
+    max-width: 800px;
 }
 .introduction-description > h2{
     margin-top: 12px;
@@ -169,6 +175,9 @@ main{
     padding: 20px;
     min-width: 200px;
 }
+.main-brands > img{
+    max-width: 600px;
+}
 
 footer{
     width: 100%;
@@ -195,5 +204,33 @@ footer{
     }
     .header-navbar ul > li{
         margin-left: 25px;
+    }
+    .introduction-cover{
+        height: 70vh;
+    }
+    .introduction-cover_text{
+        width: 51%;
+        padding: 45px;
+        font-size: 3.5rem;
+    }
+    .introduction-description{
+        padding: 40px 9px;
+    }
+    .introduction-description > p{
+        font-size: 1.9rem;
+    }
+    .introduction-button > button{
+        padding: 15px;
+        width: 300px;
+    }
+    .main-products_content{
+        width: 750px;
+        margin: 15px 0;
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+    }
+    .main-products_content > img{
+        width: 300px;
     }
 }

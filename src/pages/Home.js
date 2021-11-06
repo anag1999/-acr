@@ -24,17 +24,20 @@ const Home = () => {
             <section class="main-products">
                 <span></span>
                 <h2>Productos</h2>
-                <img src="./assets/imgs/productos.png"/>
 
-                <ol>
-                    <li>Salud</li>
-                    <li>Seguridad</li>
-                    <li>Empaques</li>
-                    <li>Adhesivos</li>
-                    <li>Papeleria</li>
-                    <li>Limpieza</li>
-                    <li>Automotriz</li>
-                </ol>
+                <article class="main-products_content">
+                    <img src="./assets/imgs/productos.png"/>
+
+                    <ol>
+                        <li>Salud</li>
+                        <li>Seguridad</li>
+                        <li>Empaques</li>
+                        <li>Adhesivos</li>
+                        <li>Papeleria</li>
+                        <li>Limpieza</li>
+                        <li>Automotriz</li>
+                    </ol>
+                </article>
             </section>
 
             <section class="main-brands">
