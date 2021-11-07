@@ -1,0 +1,457 @@
+:root{
+    /* Azul oscuro */
+    --primaryColor: #000000;
+    /* Gris */
+    --secondaryColor: #F6F6F6;
+    /* Azul logo */
+    --logoColor: #39569A;
+    /* Azul medio */
+    --middleColor: #1E2848;
+
+    --primaryFont: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: var(--primaryFont);
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9px;
+
+    background-color: var(--primaryColor);
+}
+.logo-container{
+    height: inherit;
+}
+.logo-container > img{
+    height: inherit;
+}
+.header-navbar{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 200px;
+    padding: 9px;
+
+    text-align: end;
+    border-radius: 15px 0 0 15px;
+    background-color: var(--logoColor);
+}
+.navbar-hidden{
+    right: -100%;
+}
+.navbar-visible{
+    right: 0;
+}
+.header-navbar > ul{
+    width: auto;
+    text-align: end;
+    list-style: none;
+    padding: 12px 0;
+
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.header-navbar > ul > li{
+    padding: 5px 0;
+}
+.header-navbar a{
+    text-decoration: none;
+    color: white;
+}
+.icon-container{
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+}
+.icon-container > img{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    min-height: 90vh;
+}
+.main-introduction{
+    min-height: 80vh;
+    color: white;
+}
+.introduction-cover{
+    height: 60vh;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./assets/imgs/cover.png");
+}
+.introduction-cover_text{
+    width: 65%;
+    height: 100%;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+
+    font-size: 2.4rem;
+    font-weight: 600;
+    background: rgba(30,40,72,0.5);
+    background: linear-gradient(90deg, rgba(30,40,72,1) 0%, rgba(255,255,255,0) 100%);
+}
+.introduction-description{
+    height: auto;
+    padding: 15px 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--middleColor);
+}
+.introduction-description > p{
+    max-width: 800px;
+}
+.introduction-description > h2{
+    margin-top: 12px;
+}
+.introduction-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.introduction-button > button{
+    padding: 9px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--middleColor);
+    color: white;
+    font-family: var(--primaryFont);
+    font-weight: 600;
+}
+
+.main-introduction > section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    padding: 0 9px;
+
+    color: black;
+}
+.main-introduction > section > span, .main-about > span, .main-products > span, .products-contact > span, .main-contact > span{
+    width: 80px;
+    height: 4px;
+    margin-bottom: 10px;
+    background-color: var(--logoColor);
+}
+.main-introduction > section > img{
+    max-width: 90%;
+    margin: 12px 0;
+}
+.main-introduction > section ol{
+    padding: 20px;
+    min-width: 200px;
+    text-align: initial;
+}
+.main-brands > img{
+    max-width: 600px;
+}
+
+.main-about, .main-products, .main-contact{
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-about > h2, .main-products > h2, .main-contact > h2{
+    margin-bottom: 20px;
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+.main-about > article > p{
+    padding: 12px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.main-about > article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 750px;
+}
+.main-about > article > div, .main-products > article > div{
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 4px 18px;
+    background-color: var(--primaryColor);
+    color: white;
+}
+.main-about > article > p{
+    max-width: 500px;
+}
+.about_values > div, .about_vision > div{
+    align-self: flex-end;
+}
+.main-about > ul{
+    text-align: center;
+    list-style: none;
+}
+.main-about > ul > li{
+    color: var(--primaryColor);
+    font-weight: 600;
+}
+
+.main-products{
+    font-size: 1.4rem;
+}
+.main-products > p{
+    max-width: 500px;
+}
+.main-products > p, .main-products > article > p{
+    padding: 9px;
+}
+.main-products > article{
+    margin: 15px 0;
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-products > article > p{
+    max-width: 500px;
+    text-align: end;
+}
+.main-products > .health > p, .main-products > .adherents > p{
+    text-align: start;
+}
+.health > div, .adherents > div{
+    align-self: flex-start;
+}
+.security > div, .stationery > div, .cleaning > div{
+    align-self: flex-end;
+}
+.products-contact > h2{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.products-contact > p{
+    margin: 0 auto;
+}
+.products-contact > button{
+    margin: 15px 0;
+    padding: 7px 25px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+
+    font-weight: 600;
+    color: var(--logoColor);
+}
+.products-contact > button > img{
+    width: 15px;
+}
+.health > p, .adherents > p{
+    align-self: flex-start;
+}
+.security > p, .stationery > p, .cleaning > p{
+    align-self: flex-end;
+}
+
+.main-contact > p{
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-weight: 600;
+}
+.main-contact > form{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: rgba(57, 86, 154, 0.29);
+    padding: 9px;
+}
+.main-contact > form label{
+    margin-bottom: 5px;
+}
+.main-contact > form input{
+    padding: 4px;
+}
+.main-contact > form textarea{
+    height: 200px;
+}
+.main-contact > form button{
+    padding: 9px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--logoColor);
+    color: white;
+}
+.main-contact > form > div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.main-contant_media{
+    width: 245px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-contant_media > div{
+    padding: 10px 0;
+}
+.main-contant_media > div > img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.hidden{
+    display: none
+}
+
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: var(--logoColor);
+}
+
+
+@media screen and (min-width: 768px){
+    .hambBtn, .xBtn{
+        display: none;
+    }
+    .header-navbar{
+        position: initial;
+        width: auto;
+        height: auto;
+        padding: 9px;
+    
+        text-align: end;
+        background: none;
+    }
+    .header-navbar ul{
+        display: flex;
+    }
+    .header-navbar ul > li{
+        margin-left: 25px;
+    }
+    .introduction-cover{
+        height: 70vh;
+    }
+    .introduction-cover_text{
+        width: 63%;
+        padding: 45px;
+        font-size: 3.5rem;
+    }
+    .introduction-description{
+        padding: 40px 9px;
+    }
+    .introduction-description > p{
+        font-size: 1.9rem;
+    }
+    .main-introduction > section ol{
+        margin-left: 30px;
+    }
+    .introduction-button > button{
+        padding: 15px;
+        width: 300px;
+    }
+    .main-products > .main-products_content{
+        width: 750px;
+        margin: 15px 0;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    }
+    .main-products_content > img{
+        width: 300px;
+    }
+
+    .main-about{
+        padding: 20px 0 0 0;
+    }
+    .main-about > article{
+        margin: 20px 0;
+    }
+    .main-about > article > p{
+        font-size: 1.8rem;
+    }
+    .about_vision, .about_values{
+        align-items: flex-end;
+    }
+    .main-about > .about_us > p, .main-about > .about_mision > p{
+        text-align: start;
+    }
+    .main-about > .about_vision > p, .main-about > .about_values > p{
+        text-align: end;
+    }
+    .main-about > ul{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        background-color: var(--primaryColor);
+    }
+    .main-about > ul > li{
+        color: white;
+        font-size: 1.8rem;
+    }
+
+    .main-products > p{
+        text-align: center;
+    }
+    .main-products > article{
+        padding: 20px;
+    }
+    .main-products > article > p{
+        font-size: 1.6rem;
+        margin: 13px 0;
+    }
+    .main-products > article > img{
+        width: 500px;
+    }
+    .main-products article:nth-child(even) {
+        background-color: var(--secondaryColor);
+    }
+
+    .main-contant_media{
+        display: grid;
+        width: 500px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main-contant_media > div{
+        display: flex;
+        align-items: center;
+    }
+    .hidden{
+        display: initial;
+        font-size: 1.1rem;
+    }
+}
