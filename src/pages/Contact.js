@@ -15,7 +15,7 @@ const Contact = () => {
             los productos para tu empresa
             </p>
 
-            <form>
+            <form class="send-form">
                 <div>
                     <label for="name">Nombre</label>
                     <input type="text" id="name">
@@ -36,7 +36,7 @@ const Contact = () => {
                     <textarea id="comment" placeholder="Escribe un comentario"></textarea>
                 </div>
 
-                <button>Enviar</button>
+                <button style="cursor:pointer" type="button" id="submit"  >Enviar</button>
             </form>
 
             <article class="main-contant_media">
