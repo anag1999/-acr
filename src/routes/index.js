@@ -2,6 +2,7 @@
 import getHash from "../utils/getHash";
 import solveRoutes from "../utils/solveRoutes";
 import clickHandler from "../utils/clickHandler";
+import sendEmail from "../utils/sendEmail"
 
 // Templates
 import Header from "../templates/Header";
@@ -36,6 +37,7 @@ const router = async () => {
     content.innerHTML = await render();
 
     clickHandler()
+    sendEmail()
 }
 
 export default router;
